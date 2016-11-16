@@ -1,0 +1,7 @@
+\chapter{Zielbestimmung}
+
+	Da sich Kartenspielen seit Jahrhunderten an großer Beliebtheit erfreut, soll diese Art der gesellschaftlich wertvollen Freizeitgestaltung auf das nächste Level gehoben werden. Um diesem Anspruch gerecht zu werden, soll eine Client-Server-Applikation erstellt werden. Durch dieses System soll es einzelnen Nutzern möglich sein, über den Server gemeinsam verschiedene Kartenspiele zu spielen und zu chatten. Durch eine Punktezählfunktion sollen die Nutzer angespornt werden, möglichst gut zu spielen und sich gegenseitig zu motivieren.
+
+	Der Client soll eine benutzerfreundliche GUI anbieten, die es dem Spieler ermöglicht, aktiv am Spiel teil zu nehmen. Des weiteren sollen fehlerhafte Spielzüge des Nutzers verhindert werden.
+
+	Der Server verwaltet alle vorhandenen Spiele. Die Clients können neue Spiele anlegen und existierenden Spielen beitreten. Mehrere Clients können an einem Spiel gleichzeitig teilnehmen, wobei immer nur so viele Clients gleichzeitig aktiv spielen können, wie es die Regeln des Spiels zulassen.

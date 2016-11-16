@@ -1,0 +1,22 @@
+Ablauf:
+
+Wir stellen das Spiel mit 2 menschlichen Spielern und einem Computergegner.
+
+1. Registrieren eines Benutzers 
+	1.1 Versuch, unsicheres Passwort zu verwenden
+	1.2. Passwörter stimmen nicht überein
+	1.3. Passwort erfüllt alle Kriterien
+
+2. Logout
+
+3. Anmelden beider Benutzer
+
+4. Highscore anzeigen
+
+5. Chat in der Lobby vorstellen
+
+6. Spielraum erstellen und Spiel mit 2 menschlichen Spielern und einem Bot starten
+
+7. eine Partie spielen
+	7.1 Regeln nicht beachten (Farbe nicht bekennen und untertrumpfen)
+	7.2 parallel chatten

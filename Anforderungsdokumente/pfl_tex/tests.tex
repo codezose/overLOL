@@ -1,0 +1,171 @@
+\chapter{Systemtestfälle}
+
+\newcounter{ptc}\setcounter{ptc}{10} %Pflichtenheft Test Counter
+\newcounter{pstc}\setcounter{pstc}{1} %Pflichtenheft Substest Counter
+
+\begin{description}[leftmargin=3em, style=sameline]
+	%Variablen für Environment pftp:
+	%  1. Test-Counter
+	%  2. Substest-Counter
+	%  3. Referenz auf Funktion, um die sich der Test dreht
+	%  4. Referenz unter der dieser Test erreichbar sein soll
+	%  5. Name des Tests
+	\begin{pftp}{ptc}{pstc}{pproz:regist}{pproz:tregist}{Spieler registrieren}
+		\item verfügbarer Nutzername  
+		\item zu langer Benutzername
+		\item zu kurzer Benutzername
+		\item nicht verfügbarer Nutzername
+		\item korrektes Passwort
+		\item zu kurzes Passwort
+		\item zu langes Passwort
+	\end{pftp}
+	
+	\begin{pftp}{ptc}{pstc}{pproz:entfernen}{pproz:tentfernen}{Spieler entfernen}
+		\item	Account löschen
+		\item   mit gelöschte Daten anmelden
+		\item	mit geloschte Daten neue Account registirieren
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:anmeld}{ptest:tanmeld}{Spieler anmelden}
+		\item registrierter Nutzername mit richtigem Passwort
+		\item registrierter Nutzername mit falschem Passwort
+		\item nicht registrierte Nutzername
+	\end{pftp}
+	
+	\begin{pftp}{ptc}{pstc}{pproz:abmeld}{ptest:tabmeld}{Spieler abmelden}
+		\item	während des Stichs/Spielpartie/Turnier
+		\item	In der Lobby abmelden.
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:erstel}{ptest:terstelt}{Spielraum erstellen}
+		\item	ein Spielraum erstellen	
+		\item	mehrere Spielräume (falsche)
+		\item   Spielraum mit gleichem Namen erstellen
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:schliessen}{ptest:tschliessen}{Spielraum schliessen}
+		\item  Alle Spieler verlassen den Spielraum
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:uebert}{ptest:tuebert}{Spielraumliste 	uebertragen}
+		\item	Liste der bestehenden Spielräume anzeigen durch klicken	
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:betret}{ptest:tbetret}{Spielraum beitreten}
+		\item einem vollen Spielraum beitreten.
+		\item in einen Spielraum beitreten in dem noch Platz ist
+		\item Während eines Spiels beitreten 
+		\item einem zweiten Spielraum betreten 
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:verlas}{ptest:tverlas}{Spielraum verlassen}
+		\item	vor,während und nach einem Spiel den Spielraum verlassen 
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:anzeig}{ptest:tanzeig}{Spielstand anzeigen}
+		\item	nach einer Spielpartie
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:anzeig2}{ptest:tanzeig2}{Spielstatistik anzeigen}
+		\item	Statistik in der Lobby aufrufen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:statistikberechnen}{ptest:tstatistikberechnen}{Highscore berechnen}
+		\item	Spielpartie spielen und den Highscore danach pruefen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:anzeig3}{ptest:tanzeig3}{Punktestand anzeigen}
+		\item	Punktestandanzeige pruefen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:punkteberechnen}{ptest:tpunkteberechnen}{Punktestand berechnen}
+		\item	Punktestand pruefen auf korrektheit(Fuer alle Karten in allen Spielmodi)
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:gewinnpunkteberechnen}{ptest:tgewinnpunkteberechnen}{Gewinnpunkte berechnen}
+		\item	Alle nach Spielregeln moeglichen Faelle
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:hinzuf}{ptest:thinzuf}{Bot hinzufuegen}
+		\item	Bot bei 3 Spielern hinzufuegen
+		\item	Bot bei weniger als 3 Spielern hinzufuegen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:entfer}{ptest:tentfer}{Bot entfernen}
+		\item	Bot entfernen
+		\item	Bei 0 Bots den Bot entfernen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:notfallbot}{ptest:tnotfallbot}{Notfallbot springt ein}
+		\item	Timer ablaufen lassen
+		\item	Notfallbot (mehrere Spielpartien) weiterspielen lassen
+		\item   Notfallbot beendet Spiel
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:chatte1}{ptest:tchatte1}{Chatnachricht im Spiel senden}
+		\item	Nachrichten verschiedener Länge versenden
+		\item	Nachricht empfangen
+	\end{pftp}
+
+	\begin{pftp}{ptc}{pstc}{pproz:chatte2}{ptest:tchatte2}{Chatnachricht in der Lobby senden}
+		\item analog zu oben
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:starte}{ptest:tstarte}{Spiel starten}
+		\item	mit 3 Mitspielern
+		\item	mit weniger als 3 Mitspielern
+		\item	mit Bots und Spielern
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:start}{ptest:tstart}{Neue Spielpartie starten}
+		\item	Spielpartie im Spiel starten
+		\item	Spielpartie wird von nicht Admin gestartet
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:mischen}{ptest:tmischen}{Karten mischen}
+		\item	Karten hintereinander mehrmals mischen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:sortieren}{ptest:tsortieren}{Handkarten sortieren}
+		\item	Handkarten sortieren lassen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:austei}{ptest:taustei}{Karten austeilen}
+		\item	Karten austeilen lassen
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:ausspi}{ptest:tausspi}{Karte ausspielen}
+		\item eine entsprechend der Spielregeln passende Karte ausspielen.
+		\item eine Karte, die laut Spielregeln nicht gespielt werden darf, ausspielen.
+		\item eine Trumpfkarte ausspielen.
+	\end{pftp}
+		
+	
+		
+	\begin{pftp}{ptc}{pstc}{pproz:trumpf}{ptest:ttrumpf}{Trumpfkarte zeigen}
+		\item	Trumpfkarte wird angezeigt.
+	\end{pftp}
+		
+	\begin{pftp}{ptc}{pstc}{pproz:drueck}{ptest:tdrueck}{Karten drücken}
+		\item	jede mögliche Karte drücken
+	\end{pftp}	
+		
+			
+	\begin{pftp}{ptc}{pstc}{pproz:stichb}{ptest:tstichb}{Stich beenden}
+		\item	Stich beenden und überprüfen, ob Stichkarten richtig zugeteilt werden
+	\end{pftp}	
+		
+	\begin{pftp}{ptc}{pstc}{pproz:partieb}{ptest:tpartieb}{Spielpartie beenden}
+		\item Beenden, wenn Spieler weniger als 7 Gewinnpunkte haben
+		\item Beenden, wenn Spieler mindestens 7 Gewinnpunkte hat
+	\end{pftp}	
+		
+	\begin{pftp}{ptc}{pstc}{pproz:spielb}{ptest:tspielb}{Spiel beenden}
+		\item Beenden, wenn Spieler weniger als 7 Gewinnpunkte haben
+		\item Beenden, wenn Spieler mindestens 7 Gewinnpunkte hat
+	\end{pftp}	
+		
+	\begin{pftp}{ptc}{pstc}{pproz:regelnanzeigen}{ptest:tregelnanzeigen}{Spielregeln anzeigen}
+		\item	Überprüfen, ob Spielregeln korrekt angezeigt werden
+	\end{pftp}	
+\end{description}		

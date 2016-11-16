@@ -1,0 +1,103 @@
+\chapter{Produktfunktionen}
+
+\newcounter{pfc}\setcounter{pfc}{10}
+
+\begin{description}[leftmargin=5em, style=sameline]
+
+	\begin{lhp}{pfc}{LF}{proz:regist}
+		\item [Geschäftsprozess:] Spieler registrieren
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein neuer Spieler registriert sich an einem Server.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:entfernen}
+		\item [Geschäftsprozess:] Spieler entfernen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler veranlasst die Löschung seines Benutzernamens an einem Server.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:anmeld}
+		\item [Geschäftsprozess:] Spieler anmelden
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein neuer Spieler meldet sich an einem Server an.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:abmeld}
+		\item [Geschäftsprozess:] Spieler abmelden
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler meldet sich vom Server ab.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:erstel}
+		\item [Geschäftsprozess:] Spielraum erstellen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler erstellt einen Spielraum.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:uebert}
+		\item [Geschäftsprozess:] Spielraumliste übertragen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler erhält die angeforderte Liste der bestehenden Spielräume.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:betret}
+		\item [Geschäftsprozess:] Spielraum betreten
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler betritt einen Spielraum.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:verlas}
+		\item [Geschäftsprozess:] Spielraum verlassen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler verlässt einen Spielraum.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:anzeig}
+		\item [Geschäftsprozess:] Spielstand anzeigen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Die Gewinnpunkte aller Spieler anzeigen.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:hinzuf}
+		\item [Geschäftsprozess:] Bot hinzufügen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Bot wird dem Spielraum hinzugefügt.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:entfer}
+		\item [Geschäftsprozess:] Bot entfernen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Bot wird aus dem Spielraum entfernt.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:chatte}
+		\item [Geschäftsprozess:] Chatten
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler unterhält sich textbasiert mit anderen Spielern.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:starte}
+		\item [Geschäftsprozess:] Spiel starten
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Das Spiel im Spielraum wird gestartet.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:austei}
+		\item [Geschäftsprozess:] Spielpartie starten
+		\item [Akteure:] - 
+		\item [Beschreibung:] Starte eine neue Spielpartie.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:ausspi}
+		\item [Geschäftsprozess:] Karte ausspielen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Eine gewählte Handkarte wird den Regeln entsprechend abgelegt.
+	\end{lhp}		
+	
+	\begin{lhp}{pfc}{LF}{proz:zaehle}
+		\item [Geschäftsprozess:] Punkte zählen
+		\item [Akteure:] - 
+		\item [Beschreibung:] Nach Beenden einer Spielpartie werden die Punkte in den gewonnen Stichen gezählt und der Spielstand entsprechend aktualisiert.
+	\end{lhp}
+
+\end{description}

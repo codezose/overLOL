@@ -1,0 +1,193 @@
+\chapter{Produktfunktionen}
+
+\newcounter{pfc}\setcounter{pfc}{10}
+
+\begin{description}[leftmargin=5em, style=sameline]
+
+	\begin{lhp}{pfc}{LF}{proz:regist}
+		\item [Geschäftsprozess:] Spieler registrieren
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein neuer Spieler registriert sich an einem Server.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:entfernen}
+		\item [Geschäftsprozess:] Spieler entfernen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler veranlasst die Löschung seines Benutzers an einem Server.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:anmeld}
+		\item [Geschäftsprozess:] Spieler anmelden
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler meldet sich an einem Server an.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:abmeld}
+		\item [Geschäftsprozess:] Spieler abmelden
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler meldet sich vom Server ab.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:erstel}
+		\item [Geschäftsprozess:] Spielraum erstellen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler erstellt einen Spielraum.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:schliessen}
+		\item [Geschäftsprozess:] Spielraum schließen
+		\item [Akteure:] -
+		\item [Beschreibung:] Spielraum wird geschlossen.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:uebert}
+		\item [Geschäftsprozess:] Spielraumliste übertragen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler erhält die angeforderte Liste der bestehenden Spielräume.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:betret}
+		\item [Geschäftsprozess:] Spielraum betreten
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler betritt einen Spielraum.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:verlas}
+		\item [Geschäftsprozess:] Spielraum verlassen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Spieler verlässt einen Spielraum.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:anzeig}
+		\item [Geschäftsprozess:] Spielstand anzeigen
+		\item [Akteure:] -
+		\item [Beschreibung:] Die Gewinnpunkte aller Spieler in einem Spiel anzeigen.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:anzeig2}
+		\item [Geschäftsprozess:] Spielerstatistik (Highscore) anzeigen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Die Spielstatistik (Highscore) aller Spieler in der Lobby anzeigen.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:statistikberechnen}
+		\item [Geschäftsprozess:] Highscore berechnen
+		\item [Akteure:] -
+		\item [Beschreibung:] Der Highscore wird berechnet.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:anzeig3}
+		\item [Geschäftsprozess:] Punktestand anzeigen
+		\item [Akteure:] -
+		\item [Beschreibung:] Der eigene Punktestand wird am Ende einer Spielpartie angezeigt.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:punkteberechnen}
+		\item [Geschäftsprozess:] Punktestand berechnen
+		\item [Akteure:] -
+		\item [Beschreibung:] Der Punktestand wird berechnet.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:gewinnpunkteberechnen}
+		\item [Geschäftsprozess:] Gewinnpunkte berechnen
+		\item [Akteure:] - 
+		\item [Beschreibung:] Nach Beenden einer Spielpartie werden die Gewinnpunkte aus den erhaltenen Punkten berechnet.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:hinzuf}
+		\item [Geschäftsprozess:] Bot hinzufügen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Bot wird dem Spielraum hinzugefügt.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:entfer}
+		\item [Geschäftsprozess:] Bot entfernen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein Bot wird aus dem Spielraum entfernt.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:notfallbot}
+		\item [Geschäftsprozess:] Notfallbot springt ein
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Reagiert der Spieler während des Spiels nicht bzw. geht die Verbindung verloren, springt nach Ablauf eines Timers ein Notfallbot ein.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:chatte}
+		\item [Geschäftsprozess:] Chatten
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Ein ChatRoom öffnet sich und ermöglicht es dem Spieler sich mit den anderen Spielern zu unterhalten.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:starte}
+		\item [Geschäftsprozess:] Spiel starten
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Das Spiel im Spielraum wird gestartet.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:start}
+		\item [Geschäftsprozess:] Neue Spielpartie starten
+		\item [Akteure:] - 
+		\item [Beschreibung:] Starte eine neue Spielpartie innerhalb eines Spiels.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:mischen}
+		\item [Geschäftsprozess:] Karten mischen
+		\item [Akteure:] -
+		\item [Beschreibung:] Die Karten werden zu Beginn der Spielpartie gemischt.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:sortieren}
+		\item [Geschäftsprozess:] Handkarten sortieren
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Die Handkarten des Spielers werden sortiert.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:austei}
+		\item [Geschäftsprozess:] Karten austeilen
+		\item [Akteure:] -
+		\item [Beschreibung:] Karten werden ausgeteilt und jeder Spieler erhält 12 Karten.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:ausspi}
+		\item [Geschäftsprozess:] Karte ausspielen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Eine gewählte Handkarte wird den Regeln entsprechend abgelegt.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:trumpf}
+		\item [Geschäftsprozess:] Trumpfkarte anzeigen
+		\item [Akteure:] -
+		\item [Beschreibung:] Letzte ausgeteilte Karte wird allen Spielern gezeigt damit sie wissen was Trumpf ist.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:drueck}
+		\item [Geschäftsprozess:] Karte drücken
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Spieler legt eine gewählte Karte zu Beginn der Spielpartie verdeckt ab.
+	\end{lhp}						
+
+	\begin{lhp}{pfc}{LF}{proz:stichb}
+		\item [Geschäftsprozess:] Stich beenden
+		\item [Akteure:] -
+		\item [Beschreibung:] Nachdem alle Spieler eine Karte gelegt haben wird der Stich beendet und dem Gewinner zugeteilt.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:partieb}
+		\item [Geschäftsprozess:] Spielpartie beenden
+		\item [Akteure:] -
+		\item [Beschreibung:] Die Spielpartie wird beendet.
+	\end{lhp}
+
+	\begin{lhp}{pfc}{LF}{proz:spielb}
+		\item [Geschäftsprozess:] Spiel beenden
+		\item [Akteure:] -
+		\item [Beschreibung:] Das Spiel wird beendet.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:regelnanzeigen}
+		\item [Geschäftsprozess:] Spielregeln anzeigen
+		\item [Akteure:] Spieler
+		\item [Beschreibung:] Die Spielregeln von Cosmic Eidex werden angezeigt.
+	\end{lhp}
+
+\end{description}

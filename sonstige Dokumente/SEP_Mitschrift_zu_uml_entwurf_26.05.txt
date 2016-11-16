@@ -1,0 +1,14 @@
+fuer alle dependabilityklassen zB benuterzverw. -> benutzer
+stubs machen (also hier interface BenuterInterface und benutzer ist Unterklasse von BenutzerInterface und Stub ist eine Unterklasse von Benutzerinterface mit Dummyimplementierung, nur iwas returnen)
+Benutzerverwaltung bruacht zweiten Konstruktor (evlt. für Übergabe der Stubs)
+Benutzerverwaltung ist Testklasse
+fuer jeden Test eigenen Stub
+
+
+im Testfall nicht norm. Konstruktoren sondern einen anderen mit dem die Stubs übergeben werden
+
+
+in jedem Stub methoden die nicht gebraucht werden RuntimeException liefern
+
+
+Reflection (Konstruktor in Testklasse)

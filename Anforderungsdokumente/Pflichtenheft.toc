@@ -1,0 +1,37 @@
+\select@language {ngerman}
+\contentsline {chapter}{Inhaltsverzeichnis}{2}{section*.1}
+\contentsline {chapter}{\chapternumberline {1}Zielbestimmung}{3}{chapter.2}
+\contentsline {section}{\numberline {1.1}Musskriterien}{3}{section.3}
+\contentsline {section}{\numberline {1.2}Wunschkriterien}{4}{section.4}
+\contentsline {section}{\numberline {1.3}Abgrenzungskriterien}{4}{section.5}
+\contentsline {chapter}{\chapternumberline {2}Produkteinsatz}{5}{chapter.6}
+\contentsline {section}{\numberline {2.1}Anwendungsbereiche}{5}{section.7}
+\contentsline {section}{\numberline {2.2}Zielgruppe}{5}{section.8}
+\contentsline {chapter}{\chapternumberline {3}Produktfunktionen}{6}{chapter.9}
+\contentsline {chapter}{\chapternumberline {4}Produktdaten}{19}{chapter.42}
+\contentsline {paragraph}{/D10/ Spielerdaten}{19}{section*.43}
+\contentsline {paragraph}{/D20/ Ausf\IeC {\"a}lle}{19}{section*.44}
+\contentsline {chapter}{\chapternumberline {5}Produktleistungen}{20}{chapter.45}
+\contentsline {chapter}{\chapternumberline {6}Qualit\IeC {\"a}tsanforderungen}{22}{chapter.57}
+\contentsline {chapter}{\chapternumberline {7}Bedienoberfl\IeC {\"a}che}{24}{chapter.58}
+\contentsline {paragraph}{/B10/ Alle offenen Spielr\IeC {\"a}ume m\IeC {\"u}ssen angezeigt werden.}{24}{section*.59}
+\contentsline {paragraph}{/B20/ Die Spielrauminformationen m\IeC {\"u}ssen angezeigt werden.}{24}{section*.60}
+\contentsline {paragraph}{/B30/ Gesendete Nachrichten werden im ausgew\IeC {\"a}hlten Chat bei allen Teilnehmern angezeigt.}{24}{section*.61}
+\contentsline {paragraph}{/B40/ Highscoretabelle soll auf Anfrage angezeigt werden.}{24}{section*.62}
+\contentsline {paragraph}{/B50/ In einem Spielraum werden die eigenen Handkarten mit ihren jeweiligen Werten angezeigt.}{24}{section*.63}
+\contentsline {paragraph}{/B60/ In einem Spielraum sind Handkarten der Gegner nur mit dem Kartenr\IeC {\"u}cken darzustellen.}{24}{section*.64}
+\contentsline {paragraph}{/B70/ In einem Spielraum werden Nachrichten der Spielergruppe im dazugeh\IeC {\"o}rigen Chatfenster angezeigt.}{24}{section*.65}
+\contentsline {paragraph}{/B80/ In einem Spielraum werden Karten, die bereits auf einem Stichstapel liegen verdeckt angezeigt}{24}{section*.66}
+\contentsline {paragraph}{/B90/ In einem Spielraum sind Informationen zu den Spielern und dem Spiel anzuzeigen}{24}{section*.67}
+\contentsline {paragraph}{/B90/ Es wird angezeigt, welcher Spieler an der Reihe ist.}{25}{section*.68}
+\contentsline {paragraph}{/B100/ In einem Spielraum werden Karten, die sich in einem Stich befinden, sichtbar f\IeC {\"u}r alle Spieler angezeigt.}{25}{section*.69}
+\contentsline {paragraph}{/B110/ In einem Spielraum werden nach jeder Spielpartie Spielstatistiken angezeigt}{25}{section*.70}
+\contentsline {chapter}{\chapternumberline {8}Nichtfunktionale Anforderungen}{44}{chapter.90}
+\contentsline {chapter}{\chapternumberline {9}Systemtestf\IeC {\"a}lle}{45}{chapter.91}
+\contentsline {chapter}{\chapternumberline {10}Technische Produktumgebung}{49}{chapter.184}
+\contentsline {section}{\numberline {10.1}Software}{49}{section.185}
+\contentsline {section}{\numberline {10.2}Produkt-Schnittstellen}{49}{section.186}
+\contentsline {chapter}{\chapternumberline {11}Spezielle Anforderungen an die Entwicklungs-Umgebung}{50}{chapter.187}
+\contentsline {section}{\numberline {11.1}Software}{50}{section.188}
+\contentsline {section}{\numberline {11.2}Hardware}{50}{section.189}
+\contentsline {chapter}{\chapternumberline {12}Glossar}{51}{chapter.190}

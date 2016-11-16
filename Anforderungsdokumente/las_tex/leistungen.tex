@@ -1,0 +1,55 @@
+\chapter{Produktleistungen}
+
+\newcounter{plc}\setcounter{plc}{10}
+
+\begin{description}[leftmargin=5em, style=sameline]
+
+	\begin{lhp}{plc}{LL}{leist:regist}
+		\item Die Funktionen \ref{proz:regist}(Spieler registrieren) muss gewährleisten, dass \\
+		1. keine Spielernamen doppelt registriert werden \\
+		2. der Name aus 5 bis 20 Groß-, Kleinbuchstaben und Zahlen besteht \\
+		3. das Passwort aus 6 bis 24 Zeichen besteht.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:entfernen}
+		\item Die Funktionen \ref{proz:entfernen} (Spieler entfernen) muss gewährleisten, dass \\
+		 alle Benutzerdaten vollständig gelöscht werden.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:anmeld}
+		\item Die Funktion \ref{proz:anmeld} (Spieler anmelden) muss gewährleisten, dass die Anmeldung eines Spielers muss eindeutig sein. Er darf nur von einem Gerät aus zu einem Zeitpunkt angemeldet sein.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:erstel}
+		\item Die Funktion \ref{proz:erstel} (Spielraum erstellen) muss gewährleisten, dass der Spielraumname eindeutig ist.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:schliessen}
+		\item Es muss gewährleistet werden, dass die Funktion \ref{proz:schliessen} (Spielraum schließen) erst ausgeführt wird, wenn sich kein menschlicher Spieler mehr im Raum befindet.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:betret}
+		\item Die Funktion \ref{proz:betret} (Spielraum betreten) muss gewährleisten, dass maximal 3 Spieler und/oder Bots einem Spielraum beitreten können. Außerdem kann ein Spieler nur beitreten, wenn gerade kein Spiel läuft.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:notfallbot}
+		\item Die Funktion \ref{proz:notfallbot} (Notfallbot springt ein) muss nach ca. 1 Minute ausgeführt werden.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:ausspi}
+		\item Die Funktionen \ref{proz:punkteberechnen}, \ref{proz:gewinnpunkteberechnen}, \ref{proz:austei} und \ref{proz:ausspi}, dürfen nur gemäß der Eidex Regeln durchgeführt werden.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:austei}
+		\item Nach Durchführung von Funktion \ref{proz:austei} muss jeder Spieler 12 Karten aus den 36 Spielkarten auf der Hand haben und der Trumpf den Regeln entsprechend bestimmt sein.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:chatte}
+		\item Die Funktion \ref{proz:chatte} muss sowohl in der Lobby als auch in jedem Spielraum zur Verfügung stehen.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:d}
+		\item Bots dürfen maximal ca. 15 Sekunden für einen Spielzug benötigen.
+	\end{lhp}
+
+\end{description}

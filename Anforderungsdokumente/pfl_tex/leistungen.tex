@@ -1,0 +1,60 @@
+\chapter{Produktleistungen}
+
+\newcounter{plc}\setcounter{plc}{10}
+
+\begin{description}[leftmargin=5em, style=sameline]
+
+	\begin{lhp}{plc}{LL}{proz:registL}
+		\item Die Funktionen \ref{pproz:regist}(Spieler registrieren) muss gewährleisten, dass \\
+		1. keine Spielernamen doppelt registriert werden \\
+		2. das Passwort aus 6 bis 24 Groß-, Kleinbuchstaben und Zahlen besteht \\
+		3. der Name aus 3 bis 20 Zeichen besteht.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{prod:entfernenL}
+		\item Die Funktionen \ref{pproz:entfernen} (Spieler entfernen) muss gewährleisten, dass \\
+		 alle Benutzerdaten vollständig gelöscht werden.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:anmeldL}
+		\item Die Funktion \ref{pproz:anmeld} (Spieler anmelden) muss gewährleisten, dass die Anmeldung eines Spielers eindeutig ist. Er darf nur von einem Gerät aus zu einem Zeitpunkt angemeldet sein.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:erstelL}
+		\item Die Funktion \ref{pproz:erstel} (Spielraum erstellen) muss gewährleisten, dass der Spielraumname eindeutig ist.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:schliessenL}
+		\item Es muss gewährleistet werden, dass die Funktion \ref{pproz:schliessen} (Spielraum schließen) erst ausgeführt wird, wenn sich kein menschlicher Spieler mehr im Raum befindet.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:betretL}
+		\item Die Funktion \ref{pproz:betret} (Spielraum betreten) muss gewährleisten, dass maximal 3 Spieler und/oder Bots einem Spielraum beitreten können. Außerdem kann ein Spieler nur beitreten, wenn gerade kein Spiel läuft.
+	\end{lhp}
+	
+	\begin{lhp}{plc}{LL}{leist:notfallbotL}
+		\item Die Funktion \ref{pproz:notfallbot} (Notfallbot springt ein) muss nach ca. 1 Minute ausgeführt werden.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:ausspiL}
+		\item Die Funktionen \ref{pproz:punkteberechnen}, \ref{pproz:gewinnpunkteberechnen}, \ref{pproz:austei} und \ref{pproz:ausspi}, dürfen nur gemäß der Eidex Regeln durchgeführt werden.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:austeiL}
+		\item Nach Durchführung von Funktion \ref{pproz:austei} muss jeder Spieler 12 Karten aus den 36 Spielkarten auf der Hand haben und der Trumpf den Regeln entsprechend bestimmt sein.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:chatteL}
+		\item Die Chatfunktion muss sowohl in der Lobby als auch in jedem Spielraum zur Verfügung stehen.
+	\end{lhp}
+	
+	
+		\begin{lhp}{plc}{LL}{leist:admin}
+			\item
+			Die Funtionen \ref{pproz:hinzuf}, \ref{pproz:entfer},\ref{pproz:starte}, \ref{pproz:start} dürfen nur vom Admin
+			ausgeführt werden.
+		\end{lhp}
+	
+		
+
+\end{description}

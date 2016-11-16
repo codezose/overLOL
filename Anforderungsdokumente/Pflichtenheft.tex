@@ -1,0 +1,38 @@
+
+\input{preamble}
+\input{custom_commands}
+
+\zexternaldocument*{Lastenheft}
+
+\makeatletter
+	\newcommand{\mysubject}{Pflichtenheft}
+	\newcommand{\mygroup}{Gruppe 7}
+	\newcommand{\myauthor}{%
+		Dominique Nshimyimana \\
+		Alexander Scheffler \\
+		Alexander Witton \\
+		Stefan Fritsch \\
+		Erik Gruener %
+	}
+\makeatother
+
+\begin{document}
+
+	\include{titlepage}
+
+	\tableofcontents
+
+	\include{pfl_tex/ziel}
+	\include{pfl_tex/einsatz}
+	\include{pfl_tex/funktionen}
+	\include{pfl_tex/daten}
+	\include{pfl_tex/leistungen}
+	\include{qualitaet}
+	\include{pfl_tex/qualitaetpfl}
+	\include{pfl_tex/oberflaeche}
+	\include{pfl_tex/NichtFunktionale_Anforderungen}
+	\include{pfl_tex/tests}
+	\include{pfl_tex/entwicklung}
+	\include{pfl_tex/schluss}
+	\include{glossar}
+\end{document}

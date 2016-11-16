@@ -1,0 +1,532 @@
+\chapter{Produktfunktionen}
+
+\newcounter{pfc}\setcounter{pfc}{10}
+
+\begin{description}[leftmargin=3em, style=sameline]
+	
+	\begin{php}{pfc}{F}{proz:regist}{pproz:regist} 
+		\item [Geschäftsprozess:] Spieler registrieren
+		\item [Vorbedingung:] Netzwerkverbindung zum Server
+		\item [Nachbedingung Erfolg:] Spieler registriert
+		\item [Nachbedingung Fehlschlag:] Spieler nicht registriert
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein neuer Spieler möchte sich registrieren.
+		\item [Beschreibung:]\hfill\\
+		1 Verfügbarkeit des Namens prüfen \\
+		2 Passwort auf Korrektheit prüfen (durch wiederholte Eingabe) \\
+		3 Neuen Spieler anlegen
+		\item [Erweiterungen:] -
+		\item [Alternativen:]\hfill\\
+		2a Neuen Spieler ablehnen; Benutzername schon vergeben \\
+		3a Neuen Spieler ablehnen; Passwörter stimmen nicht überein
+		
+		
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:entfernen}{pproz:entfernen}
+		\item [Geschäftsprozess:] Spieler entfernen
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler bereits registriert \\
+		2 Spieler ist angemeldet
+		\item [Nachbedingung Erfolg:] Spieler entfernt
+		\item [Nachbedingung Fehlschlag:] Spieler nicht entfernt
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte seinen Account löschen.
+		\item [Beschreibung:] \hfill\\
+		1 Passwort abfragen \\
+		2 Logout des Spielers und zum Anmeldebildschirm zurückkehren \\
+		3 Spielerdaten löschen
+		\item [Erweiterungen:] -
+		\item [Alternativen:]\hfill\\
+		2a Löschvorgang abbrechen, da Passwort nicht gültig
+	\end{php}
+	
+	
+	\begin{php}{pfc}{F}{proz:anmeld}{pproz:anmeld}
+		\item [Geschäftsprozess:] Spieler anmelden
+		\item [Vorbedingung:]\hfill\\
+		1 Netzwerkverbindung zum Server \\
+		2 Spieler registriert
+		\item [Nachbedingung Erfolg:] Spieler angemeldet
+		\item [Nachbedingung Fehlschlag:] Spieler nicht angemeldet
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte sich anmelden.
+		\item [Beschreibung:]\hfill\\
+		1 Spielername und Passwort überprüfen \\
+		2 Lobbyfenster wird geöffnet 
+		\item [Erweiterungen:] -
+		\item [Alternativen:]\hfill\\
+		2a Anmeldung ablehnen; fehlerhafte Anmeldedaten 
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:abmeld}{pproz:abmeld}
+		\item [Geschäftsprozess:] Spieler abmelden	
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler ist angemeldet
+		2 Spieler ist in der Lobby
+		\item [Nachbedingung Erfolg:] Spieler abgemeldet
+		\item [Nachbedingung Fehlschlag:] Spieler nicht abgemeldet
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte sich abmelden.
+		\item [Beschreibung:] \hfill\\
+		1 Anmeldebildschirm öffnen
+		\item [Erweiterungen:] -
+		\item [Alternativen:]-		
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:erstel}{pproz:erstel}
+		\item [Geschäftsprozess:] Spielraum erstellen
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler ist angemeldet \\
+		2 Spieler ist in der Lobby
+		\item [Nachbedingung Erfolg:] Spielraum erstellt
+		\item [Nachbedingung Fehlschlag:] Spielraum nicht erstellt
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte einen neuen Spielraum erstellen.
+		\item [Beschreibung:]\hfill\\
+		1 Verfügbarkeit des Spielraumnamen prüfen \\
+		2 Neuen Spielraum anlegen \\
+		3 Spielraum in der Spielraumliste anzeigen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] 2a Neuen Spielraum ablehnen; Spielraumname bereits vergeben
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:schliessen}{pproz:schliessen}
+		\item [Geschäftsprozess:] Spielraum schließen
+		\item [Vorbedingung:]\hfill\\
+		1 Spielraum vorhanden \\
+		2 Spiel muss abgeschlossen sein
+		\item [Nachbedingung Erfolg:] Spielraum geschlossen
+		\item [Nachbedingung Fehlschlag:] Spielraum nicht geschlossen
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Kein menschlicher Spieler mehr im Spielraum. 
+		\item [Beschreibung:] \hfill\\
+		1 Überprüfe Anzahl menschlicher Spieler \\
+		2 Spielraum aus Spielraumliste löschen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] 2a Spielraum nicht schließen; menschlicher Spieler vorhanden 
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:uebert}{pproz:uebert}
+		\item [Geschäftsprozess:] Spielraumliste übertragen
+		\item [Vorbedingung:]\hfill\\
+		Spieler befindet sich in der Lobby
+		\item [Nachbedingung Erfolg:] Spielraumliste wurde übertragen
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] -
+		\item [Beschreibung:] \hfill\\
+		Spielraumdaten werden übertragen und angezeigt.
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:betret}{pproz:betret}
+		\item [Geschäftsprozess:] Spielraum beitreten
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler ist in der Lobby \\
+		2 Spieler befindet sich in keinem anderen Spielraum
+		\item [Nachbedingung Erfolg:] Spieler ist dem Spielraum beigetreten
+		\item [Nachbedingung Fehlschlag:] Spieler ist dem Spielraum nicht beigetreten
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte einem Spielraum beitreten.
+		\item [Beschreibung:]\hfill\\
+		1 Überprüfen, ob Spielraum bereits voll \\
+		2 Spielraumfenster öffnet sich
+		\item [Erweiterungen:] -
+		\item [Alternativen:] 2a Beitritt ablehnen; Raum bereits voll
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:verlas}{pproz:verlas}
+		\item [Geschäftsprozess:] Spielraum verlassen
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler ist angemeldet \\
+		2 Spieler befindet sich in Spielraum \\
+		3 Spiel abgeschlossen
+		\item [Nachbedingung Erfolg:] Spieler hat Spielraum verlassen.
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte einen Spielraum nach Beenden eines Spiels verlassen.
+		\item [Beschreibung:] \hfill\\
+		1 Lobby wird geöffnet \\
+		2 Spieler wird aus dem Spiel entfernt.
+		\item [Erweiterungen:] - 
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:anzeig}{pproz:anzeig}
+		\item [Geschäftsprozess:] Gewinnpunkte anzeigen
+		\item [Vorbedingung:]\hfill\\
+		Spieler im Spiel 
+		\item [Nachbedingung Erfolg:] Gewinnpunkte anzeigen
+		\item [Nachbedingung Fehlschlag:] Gewinnpunkte werden nicht angezeigt
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Spielpartie beendet
+		\item [Beschreibung:]\hfill\\
+		Gewinnpunkte aller Spieler anzeigen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:anzeig2}{pproz:anzeig2}
+		\item [Geschäftsprozess:] Highscore anzeigen
+		\item [Vorbedingung:]\hfill\\
+		Spieler in der Lobby
+		\item [Nachbedingung Erfolg:] Highscore wird angezeigt
+		\item [Nachbedingung Fehlschlag:] Highscore wird nicht angezeigt
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte sich den Highscore aller Spieler in der Lobby anzeigen lassen.
+		\item [Beschreibung:]\hfill\\
+		1 Highscorefenster öffnen  \\
+		2 Highscoreliste anzeigen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] - 
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:statistikberechnen}{pproz:statistikberechnen}
+		\item [Geschäftsprozess:] Highscore berechnen
+		\item [Vorbedingung:]\hfill\\
+		Spieler ist in der Lobby 
+		\item [Nachbedingung Erfolg:] Highscore wird berechnet
+		\item [Nachbedingung Fehlschlag:] Highscore wird nicht berechnet
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Spiel beendet
+		\item [Beschreibung:] \hfill\\
+		Highscore aus den Gewinnpunkten und der Anzahl der Spiele ermitteln.
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:anzeig3}{pproz:anzeig3}
+		\item [Geschäftsprozess:] Punkte anzeigen
+		\item [Vorbedingung:]\hfill\\
+		Spieler befindet sich im Spiel
+		\item [Nachbedingung Erfolg:] Punktestand wird angezeigt
+		\item [Nachbedingung Fehlschlag:] Punktestand wird nicht angezeigt
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Spielpartie beendet
+		\item [Beschreibung:]\hfill\\
+		Punkte des Spielers anzeigen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:punkteberechnen}{pproz:punkteberechnen}
+		\item [Geschäftsprozess:] Punkte berechnen
+		\item [Vorbedingung:] \hfill\\
+		Spieler im Spiel
+		\item [Nachbedingung Erfolg:] Punkte berechnet
+		\item [Nachbedingung Fehlschlag:] Punkte nicht berechnet
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Spielpartie beendet
+		\item [Beschreibung:] \hfill\\
+		Punkte werden gezählt
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:gewinnpunkteberechnen}{pproz:gewinnpunkteberechnen}
+		\item [Geschäftsprozess:] Gewinnpunkte berechnen
+		\item [Vorbedingung:]\hfill\\
+		Spieler im Spiel
+		\item [Nachbedingung Erfolg:] Gewinnpunkte werden berechnet
+		\item [Akteure:] -
+		\item [Nachbedingung Fehlschlag:] Gewinnpunkte werden nicht berechnet
+		\item [Auslösendes Ereignis:] Spielpartie beendet
+		\item [Beschreibung:] \hfill\\
+		1 Funktion \ref{pproz:punkteberechnen} ausführen \\
+		2 Gewinnpunkte ermitteln
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:hinzuf}{pproz:hinzuf}
+		\item [Geschäftsprozess:] Bot hinzufügen
+		\item [Vorbedingung:]\hfill\\
+		1 Admin befindet sich im Spielraum \\
+		2 Spiel noch nicht gestartet
+		\item [Nachbedingung Erfolg:] Bot hinzugefügt
+		\item [Nachbedingung Fehlschlag:] Bot nicht hinzugefügt
+		\item [Akteure:] Admin
+		\item [Auslösendes Ereignis:] Der Admin möchte einen Bot im Spielraum hinzufügen.
+		\item [Beschreibung:]\hfill\\
+		1 Überprüfe ob Spielraum voll \\
+		2 Neuen Bot im Spielraum erstellen \\
+		3 Spieleranzahl erhöhen
+		\item [Erweiterungen:] 2a Vorgang abbrechen, falls Spielraum voll
+		\item [Alternativen:] 
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:entfer}{pproz:entfer}
+		\item [Geschäftsprozess:] Bot entfernen
+		\item [Vorbedingung:]\hfill\\
+		1 Admin befindet sich im Spielraum \\
+		2 Spiel noch nicht gestartet \\
+		\item [Nachbedingung Erfolg:] Bot entfernt
+		\item [Nachbedingung Fehlschlag:] Bot nicht entfernt
+		\item [Akteure:] Admin
+		\item [Auslösendes Ereignis:] Der Admin möchte einen Bot im Spielraum entfernen.
+		\item [Beschreibung:]\hfill\\
+		1 Überprüfe ob Bot im Spielraum \\
+		2 Bot aus Spielraum entfernen \\
+		3 Spieleranzahl verringern
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:notfallbot}{pproz:notfallbot}
+		\item [Geschäftsprozess:] Notfallbot springt ein
+		\item [Vorbedingung:]\hfill\\
+		Spieler befindet sich im laufenden Spiel
+		\item [Nachbedingung Erfolg:] Notfallbot eingesprungen
+		\item [Nachbedingung Fehlschlag:] Notfallbot nicht eingesprungen
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:]  Timer abgelaufen
+		\item [Beschreibung:]\hfill\\
+		1 Reaktion des Spielers mittels Timer prüfen \\
+		2 Notfallbot erstellen \\
+		3 Spieler durch Notfallbot ersetzen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] 2a Vorgang abbrechen, falls Spieler reagiert
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:chatte}{pproz:chatte1}
+		\item [Geschäftsprozess:] Chatnachricht im Spielraum senden
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler im Spielraum \\
+		2 Nachricht nicht leer
+		\item [Nachbedingung Erfolg:] Nachricht gesendet
+		\item [Nachbedingung Fehlschlag:] Nachricht nicht gesendet
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte seinen Mitspielern eine Nachricht schicken.
+		\item [Beschreibung:] \hfill\\
+		1 Nachricht aus dem Eingabefeld entfernen \\
+		2 Nachricht im Chatfenster anzeigen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	%	\begin{php}{pfc}{F}{proz:chatte}{pproz:chatte1b}
+	%		\item [Geschäftsprozess:] Chatnachricht im Spiel empfangen
+	%		\item [Vorbedingung:]\hfill\\
+	%			1 Netzwerkverbindung zum Server \\
+	%			2 Spieler befindet sich im Spiel
+	%		\item [Nachbedingung Erfolg:] Nachricht empfangen
+	%		\item [Nachbedingung Fehlschlag:] Nachricht nicht empfangen
+	%		\item [Akteure:] -
+	%		\item [Auslösendes Ereignis:] Ein Spieler möchte im Spiel mit seinen %Mitspielern chatten.
+	%		\item [Beschreibung:] Nachricht empfangen
+	%		\item [Erweiterungen:] -
+	%		\item [Alternativen:] -	
+	%	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:chatte}{pproz:chatte2}
+		\item [Geschäftsprozess:] Chatnachricht in der Lobby senden
+		\item [Vorbedingung:]\hfill\\
+		1 Spieler befindet sich in der Lobby \\
+		2 Nachricht ist nicht leer
+		\item [Nachbedingung Erfolg:] Nachricht gesendet
+		\item [Nachbedingung Fehlschlag:] Nachricht nicht gesendet
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte in der Lobby eine Nachricht versenden.
+		\item [Beschreibung:] \hfill\\
+		1 Nachricht aus dem Eingabefeld entfernen \\
+		2 Nachricht im Chatfenster anzeigen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -	
+	\end{php}
+	
+	%	\begin{php}{pfc}{F}{proz:chatte}{pproz:chatte2b}
+	%		\item [Geschäftsprozess:] Chatnachricht in der Lobby empfangen
+	%		\item [Vorbedingung:]\hfill\\
+	%			1 Netzwerkverbindung zum Server \\
+	%			2 Spieler befindet sich in der Lobby
+	%		\item [Nachbedingung Erfolg:] Nachricht empfangen
+	%		\item [Nachbedingung Fehlschlag:] Nachricht nicht empfangen
+	%		\item [Akteure:] -
+	%		\item [Auslösendes Ereignis:] Ein Spieler möchte im Spiel mit seinen %Mitspielern Chatten.
+	%		\item [Beschreibung:] Nachricht empfangen
+	%		\item [Erweiterungen:] -
+	%		\item [Alternativen:] -	
+	%	\end{php}
+	
+	
+	\begin{php}{pfc}{F}{proz:starte}{pproz:starte}
+		\item [Geschäftsprozess:] Spiel starten
+		\item [Vorbedingung:]\hfill\\
+		1 Spielraum bereits erstellt \\
+		2 Spielraum  voll
+		\item [Nachbedingung Erfolg:] Spiel gestartet
+		\item [Nachbedingung Fehlschlag:] Spiel nicht gestartet
+		\item [Akteure:] Admin
+		\item [Auslösendes Ereignis:] Der Admin möchte ein Spiel innerhalb eines Spielraums starten
+		\item [Beschreibung:]\hfill\\
+		1 Spielfenster öffnet sich \\
+		2 Gewinnpunkte werden mit 0 initialisiert \\
+		3 Die Funktion \ref{pproz:start} ausführen 
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:start}{pproz:start}
+		\item [Geschäftsprozess:] Neue Spielpartie starten
+		\item [Vorbedingung:]\hfill\\
+		Spiel gestartet 
+		\item [Nachbedingung Erfolg:] Spielpartie gestartet
+		\item [Nachbedingung Fehlschlag:] Spielpartie nicht gestartet
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Timer abgelaufen
+		\item [Beschreibung:] \hfill\\
+		1 Die Funktionen \ref{pproz:mischen}, \ref{pproz:austei} und \ref{pproz:trumpf} ausführen \\
+		2 Punkte mit 0 initialisieren
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:mischen}{pproz:mischen}
+		\item [Geschäftsprozess:] Karten mischen
+		\item [Vorbedingung:] -
+		\item [Nachbedingung Erfolg:] Karten gemischt
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Starten einer neuen Spielpartie innerhalb eines Spiels.
+		\item [Beschreibung:] Spielkarten mischen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:sortieren}{pproz:sortieren}
+		\item [Geschäftsprozess:] Handkarten sortieren
+		\item [Vorbedingung:]\hfill\\
+		Karten wurden ausgeteilt
+		\item [Nachbedingung Erfolg:] Handkarten sortiert
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Der Spieler möchte seine Karten sortieren lassen.
+		\item [Beschreibung:] Karten von links nach rechts nach Wert sortieren. 
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:austei}{pproz:austei}
+		\item [Geschäftsprozess:] Karten austeilen
+		\item [Vorbedingung:]\hfill\\
+		Spielpartie gestartet
+		\item [Nachbedingung Erfolg:] Karten ausgeteilt
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Spielpartie gestartet
+		\item [Beschreibung:]\hfill\\
+		Karten werden vom Stapel genommen und den Spieler zugeordnet
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -	
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:ausspi}{pproz:ausspi}
+		\item [Geschäftsprozess:] Karte ablegen
+		\item [Vorbedingung:] \hfill\\
+		1 Spieler im Spiel \\
+		2 Karten ausgeteilt \\
+		3 Spiel ist am Zug
+		\item [Nachbedingung Erfolg:] Karte abgelegt
+		\item [Nachbedingung Fehlschlag:] Karte nicht abgelegt
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte eine gewählte Handkarte ablegen.
+		\item [Beschreibung:]\hfill\\
+		1 Prüfen, ob gewählte Karte zulässig \\
+		2 Karte aus Hand entfernen \\
+		3 Karte dem Stich hinzufügen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] 2a Karte unzulässig; Karte nicht ablegen	
+	\end{php}
+	
+	
+	
+	\begin{php}{pfc}{F}{proz:trumpf}{pproz:trumpf}
+		\item [Geschäftsprozess:] Trumpfkarte zeigen
+		\item [Vorbedingung:] \hfill\\
+		1 Spieler im Spiel \\
+		2 Karten ausgeteilt
+		\item [Nachbedingung Erfolg:] Trumpfkarte anzeigen
+		\item [Nachbedingung Fehlschlag:] Trumpfkarte nicht anzeigen
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Alle Karten wurden ausgeteilt.
+		\item [Beschreibung:] Trumpfkarte wird allen Spielern während des Spiels angezeigt
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}	
+	
+	\begin{php}{pfc}{F}{proz:drueck}{pproz:drueck}
+		\item [Geschäftsprozess:] Karte drücken 
+		\item [Vorbedingung:]\hfill\\
+		1 Karten ausgeteilt\\
+		2 Spieler im Spiel
+		\item [Nachbedingung Erfolg:] Karte gedrückt
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Der Spieler möchte eine Karte drücken
+		\item [Beschreibung:]\hfill\\
+		1 Karte verdeckt hinlegen \\
+		2 Karte aus Hand entfernen
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	
+	\begin{php}{pfc}{F}{proz:stichb}{pproz:stichb}
+		\item [Geschäftsprozess:] Stich beenden
+		\item [Vorbedingung:]
+		Spieler in einer Spielpartie
+		\item [Nachbedingung Erfolg:] Stich beendet
+		\item [Nachbedingung Fehlschlag:] Stich nicht beendet
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Alle Spieler haben ihre Karte gelegt
+		\item [Beschreibung:] Die Karten werden dem Gewinner zugeteilt
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:partieb}{pproz:partieb}
+		\item [Geschäftsprozess:] Spielpartie beenden
+		\item [Vorbedingung:]\hfill\\
+		Spieler befindet sich im Spiel
+		\item [Nachbedingung Erfolg:] Spielpartie beendet
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Alle 11 Stiche wurden beendet
+		\item [Beschreibung:] \hfill\\
+		1 Die Funktionen \ref{pproz:gewinnpunkteberechnen}, \ref{pproz:punkteberechnen},\ref{pproz:anzeig3} und \ref{pproz:anzeig} ausführen
+		2 Timer starten
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:spielb}{pproz:spielb}
+		\item [Geschäftsprozess:] Spiel beenden
+		\item [Vorbedingung:]
+		Spieler im Spiel
+		\item [Nachbedingung Erfolg:] Spiel beendet
+		\item [Nachbedingung Fehlschlag:] -
+		\item [Akteure:] -
+		\item [Auslösendes Ereignis:] Ein Spieler hat nach den  Eidexregeln das Turnier gewonnen.
+		\item [Beschreibung:]\hfill\\
+		1 Die Funktion \ref{pproz:statistikberechnen} ausführen \\
+		2 Spieler gelangen in den Spielraum
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	\begin{php}{pfc}{F}{proz:regelnanzeigen}{pproz:regelnanzeigen}
+		\item [Geschäftsprozess:] Spielregeln anzeigen
+		\item [Vorbedingung:] Spieler ist angemeldet-
+		\item [Nachbedingung Erfolg:] Spielregeln anzeigen
+		\item [Nachbedingung Fehlschlag:] Spielregeln nicht anzeigen
+		\item [Akteure:] Spieler
+		\item [Auslösendes Ereignis:] Ein Spieler möchte sich die Spielregeln anzeigen lassen.
+		\item [Beschreibung:] Ein neues Fenster mit den Spielregeln öffnet sich.
+		\item [Erweiterungen:] -
+		\item [Alternativen:] -
+	\end{php}
+	
+	
+\end{description}

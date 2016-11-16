@@ -1,0 +1,51 @@
+- UML diagramm etc. exportieren 
+- Struktur ins UMLDiagramm (am besten mehrere Diagramme)
+
+
+UML Client
+- An Klassenname falls importiert java.somePackage.someClass schreiben
+- Impementierungsklassen dürfen keine eingehende Referenzen haben
+- Chat: mehr Methoden/Attribute - wohin soll die Nachricht gehen etc.; Chatverlauf
+- MVC (Daten müssen observable sein) Button gedrückt -> Controller wird aufgerufen. Java fx vorteilhaft; Observable Interface
+- registrieren aus Benutzer raus
+- hat Interface Spielraum (um zu wissen welche Methoden im Spielraum aufgerufen werden können)
+- zum Remote Objekt muss entsprechendes Interface kennen 
+- Bot raus
+
+UML Server
+- auch wieder Chat überarbeiten ...
+- mehr Struktur (Hierarchie entsprechend im Diagramm darstellen)
+- im Spieler fehlen Methoden
+- mit Observer "istAnDerReihe" realisieren (Spieler)
+- Bot soll Stiche/Pkt. der Spieler usw. merken (wg. Strategie)
+- prüfen, ob an alle Methoden gedacht wurde (Pflichtenheft durchgehen)
+
+Sequenzdiagramme
+
+- Unterschied Client/Server soll erkennbar sein (aber nicht die Details von RMI)
+
+- komplett überarbeiten!
+
+- auf Syntax überprüfen
+
+- sinnvoll kürzen -> z.B. nicht von jedem Spieler Instanz erzeugen
+
+login 
+
+- Benutzer ruft Benutzverw. auf -> soll RemoteObj zurückgeliefert werden
+- erster Pfeil (login mit Name, PW etc.)
+if erfolgreich -> RemoteObj. von Benutzer bzw. Lobby
+else Exception
+- am besten überlegen welche Obj. betroffen sind z.B. bei Aufruf von Spielpartie starten
+
+
+spielpartie
+- Spieler, Hand etc. fehlt
+
+
+
+
+
+
+
+

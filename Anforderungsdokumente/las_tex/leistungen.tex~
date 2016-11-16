@@ -1,0 +1,19 @@
+\chapter{Produktleistungen}
+
+\newcounter{plc}\setcounter{plc}{10}
+
+\begin{description}[leftmargin=5em, style=sameline]
+
+	\begin{lhp}{plc}{LL}{leist:a}
+		\item Die Funktionen \ref{proz:austei},/ref{proz:regist} , \ref{proz:ausspi} und \ref{proz:zaehle} dürfen nur gemäß der Eidex Regeln durchgeführt werden.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:b}
+		\item Nach Durchführung von Funktion \ref{proz:austei} muss jeder Spieler 12 Karten aus den 36 Spielkarten auf der Hand haben und der Trumpf den Regeln entsprechend bestimmt sein.
+	\end{lhp}
+
+	\begin{lhp}{plc}{LL}{leist:c}
+		\item Die Funktion \ref{proz:chatte} muss sowohl in der Lobby als auch in jedem Spielraum zur Verfügung stehen.
+	\end{lhp}
+
+\end{description}
