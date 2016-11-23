@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.11)  23 NOV 2016 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.11)  23 NOV 2016 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,15 +8,6 @@ entering extended mode
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./preamble.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/memoir/memoir.cls
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.18)  18 NOV 2016 10:40
-entering extended mode
-**./Lastenheft.tex
-(Lastenheft.tex
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(preamble.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
 ment class
 \onelineskip=\skip41
@@ -25,12 +15,7 @@ ment class
 \xlvchars=\skip43
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-=======
-\l@nohyphenation=\language75
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifetex/ifetex.sty
@@ -40,11 +25,7 @@ Package: ifetex 2011/12/15 v1.2 ifetex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -53,11 +34,7 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/memoir/mem11.clo
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mem11.clo"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 )
 \binding=\skip48
@@ -359,7 +336,6 @@ Package verse [2008/07/23] emulated by memoir.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/memoir/mempatch.sty
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -385,33 +361,6 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count137
@@ -419,31 +368,19 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks23
 \inpenc@posthook=\toks24
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -680,11 +617,7 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -725,11 +658,7 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -753,7 +682,6 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
 
@@ -764,40 +692,15 @@ Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
 Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/04/23 3.9r The Babel package
-
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf"
-Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\ngermanb.ldf"
-Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count138
 \U@D=\dimen149
 )
-<<<<<<< HEAD
 \l@naustrian = a dialect from \language\l@ngerman 
 \l@nswissgerman = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 88.
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
-=======
-Package babel Info: Making " an active character on input line 125.
-)))
-("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip185
 \enit@outerparindent=\dimen150
@@ -805,7 +708,6 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box29
 \enitdp@description=\count139
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -822,24 +724,6 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty"
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -847,7 +731,6 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))))
 \c@section@level=\count140
-<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 353.
 LaTeX Info: Redefining \pageref on input line 353.
 )
@@ -862,33 +745,13 @@ Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
-=======
-LaTeX Info: Redefining \ref on input line 355.
-LaTeX Info: Redefining \pageref on input line 355.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-xr.sty"
-Package: zref-xr 2016/05/21 v2.26 Module xr for zref (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
-Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
@@ -900,17 +763,10 @@ Package zref Info: New property: urluse on input line 56.
 Package zref Info: New property: externaldocument on input line 57.
 \ZREF@xr@URL=\count141
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -931,22 +787,14 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/svgnam.def
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip187
 \LTright=\skip188
@@ -964,7 +812,6 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count147
 \LT@p@ftn=\toks27
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
@@ -973,16 +820,6 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1008,11 +845,7 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-<<<<<<< HEAD
 Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
-=======
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package hobsub Info: Skipping package `refcount' (already loaded).
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
@@ -1020,13 +853,8 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 \Hy@linkcounter=\count148
 \Hy@pagecounter=\count149
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -1035,7 +863,6 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-<<<<<<< HEAD
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -1045,22 +872,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
 \c@Hy@tempcnt=\count151
 LaTeX Info: Redefining \url on input line 5044.
-=======
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count151
-LaTeX Info: Redefining \url on input line 5088.
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 \XeTeXLinkMargin=\dimen153
 \Fld@menulength=\count152
 \Field@Width=\dimen154
 \Fld@charsize=\dimen155
-<<<<<<< HEAD
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -1070,17 +885,6 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-=======
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 \Hy@abspage=\count153
 \c@Item=\count154
 \c@Hfootnote=\count155
@@ -1094,21 +898,12 @@ ass
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
 \Fld@listcount=\count158
 \c@bookmark@seq@number=\count159
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count158
-\c@bookmark@seq@number=\count159
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -1121,21 +916,12 @@ Package hyperref Info: Option `plainpages' set `false' on input line 29.
 Package hyperref Info: Option `hypertexnames' set `false' on input line 29.
 Package hyperref Info: Option `linktocpage' set `true' on input line 29.
 )
-<<<<<<< HEAD
 (./custom_commands.tex) (./Lastenheft.aux (./titlepage.aux) (./las_tex/ziel.aux
 ) (./las_tex/einsatz.aux) (./las_tex/funktionen.aux) (./las_tex/daten.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 ) (./las_tex/leistungen.aux) (./qualitaet.aux) (./glossar.aux))
-=======
-(custom_commands.tex) (Lastenheft.aux (titlepage.aux) (las_tex/ziel.aux)
-(las_tex/einsatz.aux) (las_tex/funktionen.aux) (las_tex/daten.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-) (las_tex/leistungen.aux) (qualitaet.aux) (glossar.aux))
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 \openout1 = `Lastenheft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -1153,11 +939,7 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-=======
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count160
 \scratchdimen=\dimen156
@@ -1170,26 +952,11 @@ LaTeX Font Info:    ... okay on input line 10.
 \MPnumerator=\count164
 \makeMPintoPDFobject=\count165
 \everyMPtoPDFconversion=\toks29
-<<<<<<< HEAD
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-=======
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
@@ -1205,7 +972,6 @@ Package hyperref Info: Link coloring ON on input line 10.
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
-<<<<<<< HEAD
 
 (./Lastenheft.out) (./Lastenheft.out)
 \@outlinefile=\write4
@@ -1214,45 +980,26 @@ LaTeX Info: Redefining \nameref on input line 10.
 \openout2 = `titlepage.aux'.
 
  (./titlepage.tex
-<img/tulogo.jpg, id=36, 228.3732pt x 61.9113pt>
-=======
- (Lastenheft.out) (Lastenheft.out)
-\@outlinefile=\write4
-\openout4 = `Lastenheft.out'.
-
-\openout2 = `titlepage.aux'.
-
- (titlepage.tex
-<img/tulogo.jpg, id=35, 228.3732pt x 61.9113pt>
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
-File: img/tulogo.jpg Graphic file (type jpg)
- <use img/tulogo.jpg>
-Package pdftex.def Info: img/tulogo.jpg used on input line 5.
-(pdftex.def)             Requested size: 209.91074pt x 56.9055pt.
+<img/overLOLlogo.jpg, id=36, 546.04pt x 370.38374pt>
+File: img/overLOLlogo.jpg Graphic file (type jpg)
+ <use img/overLOLlogo.jpg>
+Package pdftex.def Info: img/overLOLlogo.jpg used on input line 5.
+(pdftex.def)             Requested size: 83.88545pt x 56.9055pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 12.
- [1
+[1
 
 
-<<<<<<< HEAD
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/t
-ulogo.jpg>]
-=======
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/tulogo.jpg>]
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/o
+verLOLlogo.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 15.
-<<<<<<< HEAD
  (./Lastenheft.toc
-=======
-
-(Lastenheft.toc
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1269,15 +1016,18 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 \openout2 = `las_tex/ziel.aux'.
 
-<<<<<<< HEAD
  (./las_tex/ziel.tex
-=======
- (las_tex/ziel.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
@@ -1289,11 +1039,8 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 \openout2 = `las_tex/einsatz.aux'.
 
-<<<<<<< HEAD
- (./las_tex/einsatz.tex
-=======
- (las_tex/einsatz.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
+
+(./las_tex/einsatz.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1303,63 +1050,59 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 17.
-<<<<<<< HEAD
-
-[4
-=======
  [4
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 
 
 
 ]
 \openout2 = `las_tex/funktionen.aux'.
 
-<<<<<<< HEAD
  (./las_tex/funktionen.tex
-=======
-
-(las_tex/funktionen.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 \c@pfc=\count166
+
+Overfull \hbox (3.61327pt too wide) in paragraph at lines 54--55
+   [] \OT1/cmr/bx/n/10.95 Be-schrei-bung:[] \OT1/cmr/m/n/10.95 dow-n-loads of d
+o-cu-ments (pdfs, scripts, li-te-ra-ture). 
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
- [5
+(babel)             in language  on input line 57.
+[5
 
 
 
 ]
-Overfull \hbox (3.21783pt too wide) in paragraph at lines 82--83
+Overfull \hbox (3.21783pt too wide) in paragraph at lines 90--91
    [] \OT1/cmr/bx/n/10.95 Be-schrei-bung:[] \OT1/cmr/m/n/10.95 Der ei-ge-ne Pun
 k-tes-tand wird am En-de ei-ner Spiel-
  []
 
-
-Overfull \hbox (2.39655pt too wide) in paragraph at lines 112--113
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 114.
+[6]
+Overfull \hbox (2.39655pt too wide) in paragraph at lines 120--121
    [] \OT1/cmr/bx/n/10.95 Be-schrei-bung:[] \OT1/cmr/m/n/10.95 Rea-giert der Sp
 ie-ler w[]ahrend des Spiels nicht bzw.
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 113.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 113.
-[6]
-Overfull \hbox (2.82243pt too wide) in paragraph at lines 130--131
+
+Overfull \hbox (2.82243pt too wide) in paragraph at lines 132--133
    [] \OT1/cmr/bx/n/10.95 Be-schrei-bung:[] \OT1/cmr/m/n/10.95 Star-te ei-ne ne
 ue Spiel-par-tie in-ner-halb ei-nes Spiels. 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 167.
 [7])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 18.
@@ -1368,11 +1111,7 @@ Package babel Info: Redefining ngerman shorthand "~
  [8]
 \openout2 = `las_tex/daten.aux'.
 
-<<<<<<< HEAD
  (./las_tex/daten.tex
-=======
- (las_tex/daten.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1390,11 +1129,7 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 \openout2 = `las_tex/leistungen.aux'.
 
-<<<<<<< HEAD
  (./las_tex/leistungen.tex
-=======
- (las_tex/leistungen.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1402,13 +1137,13 @@ Package babel Info: Redefining ngerman shorthand "~
 \c@plc=\count168
 
 Overfull \hbox (1.23221pt too wide) in paragraph at lines 20--21
-    []     [] [] \OT1/cmr/m/n/10.95 Die Funk-ti-on [][]/LF30/[][] (Spie-ler an-
+    []     [] [] \OT1/cmr/m/n/10.95 Die Funk-ti-on [][]/LF20/[][] (Spie-ler an-
 mel-den) muss gew[]ahrleisten, dass
  []
 
 
 Overfull \hbox (2.11435pt too wide) in paragraph at lines 40--41
-    []     [] [] \OT1/cmr/m/n/10.95 Die Funk-tio-nen [][]/LF140/[][], [][]/LF15
+    []     [] [] \OT1/cmr/m/n/10.95 Die Funk-tio-nen [][]/LF150/[][], [][]/LF16
 0/[][], [][]/LF240/[][] und [][]/LF250/[][], d[]urfen
  []
 
@@ -1434,11 +1169,7 @@ Package babel Info: Redefining ngerman shorthand "~
  [11]
 \openout2 = `qualitaet.aux'.
 
-<<<<<<< HEAD
  (./qualitaet.tex
-=======
- (qualitaet.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1455,11 +1186,7 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 \openout2 = `glossar.aux'.
 
-<<<<<<< HEAD
  (./glossar.tex
-=======
- (glossar.tex
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1498,15 +1225,9 @@ Package babel Info: Redefining ngerman shorthand "~
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
-<<<<<<< HEAD
  (./Lastenheft.aux (./titlepage.aux) (./las_tex/ziel.aux)
 (./las_tex/einsatz.aux) (./las_tex/funktionen.aux) (./las_tex/daten.aux)
 (./las_tex/leistungen.aux) (./qualitaet.aux) (./glossar.aux))
-=======
- (Lastenheft.aux (titlepage.aux) (las_tex/ziel.aux)
-(las_tex/einsatz.aux) (las_tex/funktionen.aux) (las_tex/daten.aux)
-(las_tex/leistungen.aux) (qualitaet.aux) (glossar.aux))
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `Lastenheft.out' has not changed.
@@ -1518,40 +1239,24 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 10618 strings out of 493014
- 151326 string characters out of 6133350
- 312003 words of memory out of 5000000
- 13914 multiletter control sequences out of 15000+600000
+ 10642 strings out of 493014
+ 151763 string characters out of 6133350
+ 312004 words of memory out of 5000000
+ 13935 multiletter control sequences out of 15000+600000
  8948 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,35p,757b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,35p,302b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on Lastenheft.pdf (14 pages, 211847 bytes).
-=======
- 10632 strings out of 493333
- 150531 string characters out of 3139181
- 312767 words of memory out of 3000000
- 13915 multiletter control sequences out of 15000+200000
- 8948 words of font info for 31 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 48i,11n,35p,759b,571s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsl10.pfb>
-Output written on Lastenheft.pdf (14 pages, 230407 bytes).
->>>>>>> 972cdfdc10a3f4073bfc96e6de6d2f5d7f85301e
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lastenheft.pdf (14 pages, 160907 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  68 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

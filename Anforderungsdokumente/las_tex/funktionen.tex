@@ -5,63 +5,71 @@
 \begin{description}[leftmargin=5em, style=sameline]
 
 	\begin{lhp}{pfc}{LF}{proz:regist}
-		\item [Geschäftsprozess:] Spieler registrieren
+		\item [Geschäftsprozess:] To register a user
 		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein neuer Spieler registriert sich an einem Server.
-	\end{lhp}
-
-	\begin{lhp}{pfc}{LF}{proz:entfernen}
-		\item [Geschäftsprozess:] Spieler entfernen
-		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler veranlasst die Löschung seines Benutzers an einem Server.
+		\item [Beschreibung:] new user should register on system-server per browser
 	\end{lhp}
 	
-	\begin{lhp}{pfc}{LF}{proz:anmeld}
-		\item [Geschäftsprozess:] Spieler anmelden
-		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler meldet sich an einem Server an.
+	\begin{lhp}{pfc}{LF}{proz:login}
+		\item [Geschäftsprozess:] login user
+		\item [Akteure:] user
+		\item [Beschreibung:] user could login; user-name and password are required
+		
 	\end{lhp}
 
 	\begin{lhp}{pfc}{LF}{proz:abmeld}
-		\item [Geschäftsprozess:] Spieler abmelden
+		\item [Geschäftsprozess:] logout\/sign out
 		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler meldet sich vom Server ab.
+		\item [Beschreibung:] logout from server
 	\end{lhp}
 
-	\begin{lhp}{pfc}{LF}{proz:erstel}
-		\item [Geschäftsprozess:] Spielraum erstellen
+	\begin{lhp}{pfc}{LF}{proz:changepwd}
+		\item [Geschäftsprozess:] reset\/change password
 		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler erstellt einen Spielraum.
+		\item [Beschreibung:] password forgotten or change password
 	\end{lhp}
 	
-	\begin{lhp}{pfc}{LF}{proz:schliessen}
-		\item [Geschäftsprozess:] Spielraum schließen
-		\item [Akteure:] -
-		\item [Beschreibung:] Spielraum wird geschlossen.
+	
+	\begin{lhp}{pfc}{LF}{proz:delete}
+		\item [Geschäftsprozess:] delete accout  (delete means archiv)
+		\item [Akteure:] user or admin
+		\item [Beschreibung:] user can delete the account or admin can delete any account
 	\end{lhp}
 	
-	\begin{lhp}{pfc}{LF}{proz:uebert}
-		\item [Geschäftsprozess:] Spielraumliste übertragen
-		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler erhält die angeforderte Liste der bestehenden Spielräume.
+	\begin{lhp}{pfc}{LF}{proz:upload}
+		\item [Geschäftsprozess:] upload data
+		\item [Akteure:] teacher, admin or allowed user
+		\item [Beschreibung:] user can upload data.
 	\end{lhp}
 	
-	\begin{lhp}{pfc}{LF}{proz:betret}
-		\item [Geschäftsprozess:] Spielraum betreten
-		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler betritt einen Spielraum.
+	\begin{lhp}{pfc}{LF}{proz:access}
+		\item [Geschäftsprozess:] access data
+		\item [Akteure:] user
+		\item [Beschreibung:] user reads only but no direct download for everthing.
 	\end{lhp}
 	
-	\begin{lhp}{pfc}{LF}{proz:verlas}
-		\item [Geschäftsprozess:] Spielraum verlassen
-		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein Spieler verlässt einen Spielraum.
+	\begin{lhp}{pfc}{LF}{proz:download}
+		\item [Geschäftsprozess:] download
+		\item [Akteure:] user
+		\item [Beschreibung:] downloads of documents (pdfs, scripts, literature).
 	\end{lhp}
 	
-	\begin{lhp}{pfc}{LF}{proz:anzeig}
-		\item [Geschäftsprozess:] Spielstand anzeigen
-		\item [Akteure:] -
-		\item [Beschreibung:] Die Gewinnpunkte aller Spieler in einem Spiel anzeigen.
+	\begin{lhp}{pfc}{LF}{proz:grouping}
+		\item [Geschäftsprozess:] create group/class
+		\item [Akteure:] user
+		\item [Beschreibung:] teacher can create a study room or student can create a gruppe.
+	\end{lhp}	
+		
+	\begin{lhp}{pfc}{LF}{proz:chat}
+		\item [Geschäftsprozess:] Chat
+		\item [Akteure:] user
+		\item [Beschreibung:] chat in class/group.
+	\end{lhp}
+	
+	\begin{lhp}{pfc}{LF}{proz:couseorg}
+		\item [Geschäftsprozess:] course/lectures organization		
+		\item [Akteure:] user
+		\item [Beschreibung:] sort and such in visited/actual courses.
 	\end{lhp}
 	
 	\begin{lhp}{pfc}{LF}{proz:anzeig2}
@@ -110,12 +118,6 @@
 		\item [Geschäftsprozess:] Notfallbot springt ein
 		\item [Akteure:] Spieler
 		\item [Beschreibung:] Reagiert der Spieler während des Spiels nicht bzw. geht die Verbindung verloren, springt nach Ablauf eines Timers ein Notfallbot ein.
-	\end{lhp}
-	
-	\begin{lhp}{pfc}{LF}{proz:chatte}
-		\item [Geschäftsprozess:] Chatten
-		\item [Akteure:] Spieler
-		\item [Beschreibung:] Ein ChatRoom öffnet sich und ermöglicht es dem Spieler sich mit den anderen Spielern zu unterhalten.
 	\end{lhp}
 	
 	\begin{lhp}{pfc}{LF}{proz:starte}
